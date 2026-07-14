@@ -15,7 +15,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: sg2plzcpnl486124.prod.sin2.secureserver.net
-        username: github@ozacars.xyz
+        username: github@ozpax.org
         password: ${{ secrets.FTP_PASSWORD }}
         timeout: 120000
         server-dir: ozpax/
